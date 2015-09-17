@@ -4,6 +4,12 @@ describe('createDeck', function() {
   });
 
   it("returns a card rank with a correspondng card suit", function() {
-    expect(createDeck()[0]).to.eql(["Ace", "C"]);
+    expect(createDeck()[4]).to.eql(["2", "C"]);
   });
 });
+
+// describe('setCardValues', function() {
+//   it("returns card with a corresponding value", function() {
+//     expect(setCardValues())
+//   })
+// }
