@@ -28,3 +28,10 @@ describe('shuffleDeck', function() {
     expect(shuffleDeck(deck)).to.be.instanceOf(Array);
   });
 });
+
+describe('randomCard', function() {
+  it("returns randomly selected card from the deck of cards", function() {
+    var deck = createDeck();
+    expect(randomCard(deck)).to.be.instanceOf(Array);
+  });
+});

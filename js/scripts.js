@@ -43,3 +43,8 @@ var shuffleDeck = function(deck) {
   }
   return deck;
 }
+
+var randomCard = function(deck) {
+  var random = Math.floor(Math.random() * 10 + 2);
+  return deck[random];
+}
