@@ -8,8 +8,9 @@ describe('createDeck', function() {
   });
 });
 
-// describe('setCardValues', function() {
-//   it("returns card with a corresponding value", function() {
-//     expect(setCardValues())
-//   })
-// }
+describe('shuffleDeck', function() {
+  it("returns randomized deck of cards", function() {
+    var deck = createDeck();
+    expect(shuffleDeck(deck)).to.be.instanceOf(Array);
+  });
+});
